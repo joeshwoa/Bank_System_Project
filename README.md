@@ -45,10 +45,10 @@ Perform Transactions: Make deposits, withdrawals, or transfers between accounts.
 View Balance: Check the current balance of any account.
 Generate Statements: View detailed transaction history for any account.
 
-### System Architecture
+## System Architecture
 The project follows object-oriented programming principles. Each core banking function is modeled through different classes, such as Customer, Account, and Transaction. These classes interact with each other to perform operations in a modular and scalable manner.
 
-#### Key Components:
+### Key Components:
 Customer Class: Stores customer information and links to their account(s).
 
 Account Class: Manages account details like balance and transaction history.
@@ -57,7 +57,7 @@ Transaction Class: Handles the deposit, withdrawal, and transfer operations.
 
 Admin Interface: Provides additional controls for bank administrators.
 
-### Contributing
+## Contributing
 We welcome contributions to enhance the Bank System Project. To contribute:
 
 1. Fork the repository.
@@ -66,5 +66,5 @@ We welcome contributions to enhance the Bank System Project. To contribute:
 4. Push to the branch: ```git push origin feature-name```.
 5. Open a pull request.
    
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
